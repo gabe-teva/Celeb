@@ -4,7 +4,7 @@ import javax.net.ssl.SNIHostName;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        String[][] celebs = new String[][] {{"Name", "Blond", "5.5", "Job", "Origin", "True", "100", "True"}, {"Name", "Brown", "5.5", "Job", "Origin", "True", "100", "True"}, {"Name", "Black", "5.5", "Job", "Origin", "True", "100", "True"}, {"Name", "Ginger", "5.5", "Job", "Origin", "True", "100", "True"}, {"Name", "Brown", "5.5", "Job", "Origin", "True", "100", "True"}};
+        String[][] celebs = new String[][] {{"Rivers Cuomo", "Brown", "5.5", "Musician", "New York City", "True", "52", "True"}, {"LeBron James", "Black", "6.75", "Basketball", "Akron", "True", "38", "True"}, {"Elizabeth Alexandra Mary Windsor", "Brown", "5.333", "Former Queen", "London", "False", "96", "False"}, {"Elon Musk", "Black", "6.08", "CEO", "South Africa", "True", "51", "True"}, {"Dak Prescott", "Brown", "6.166", "Football", "Sulphur", "True", "29", "True"}};
         if(game(new Celebrity(celebs[(int) Math.floor(Math.random() * celebs.length)]))){
             System.out.println("you win!");
         } else {
